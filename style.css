@@ -1,0 +1,27 @@
+.element {
+    width: 50%;
+    background-color: red;
+}
+
+@media (max-width: 800px) {
+    .element{
+        width: 100%;
+        background-color: blue;
+    }
+}
+
+#panelCartas{
+    border: 2cap;
+  min-height: 150px;
+  width: 200px;
+}
+
+#carta{
+    width: 100px;
+    height: 120px;
+}
+
+img{
+    width: 100px;
+    height: 120px;
+}
