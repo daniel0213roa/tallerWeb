@@ -1,0 +1,32 @@
+.element {
+    width: 50%;
+    background-color: red;
+}
+
+@media (max-width: 800px) {
+    .element{
+        width: 100%;
+     
+    }
+}
+
+#panelCartas{
+    border: 2cap;
+  min-height: 50px;
+  max-width: 60%;
+}
+
+div button{
+    border: none;
+    color: transparent;
+    background-color: transparent;
+}
+img{
+    width: 125px;
+    height: 175px;
+}
+
+table{
+    display: -ms-inline-flexbox;
+}
+

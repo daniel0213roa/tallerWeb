@@ -1,22 +1,78 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js"></script>
     <title>Document</title>
-</head>
-<body>
-    <header>SHOWDOWN</header>
+  </head>
+  <body>
+    <header><h1>SHOWDOWN</h1></header>
 
-<!--este div es para las cartas-->  
+    <!--este div es para las cartas-->
     <div id="panelCartas">
-        <button type="button" name="As" ><img src="img/1.png" alt="" srcset="" id="carta"></button>
+      <button type="button" name="As">
+        <img src="img/1.png" alt="" srcset="" id="carta" />
+      </button>
+      <button type="button" name="2">
+        <img src="img/2.png" alt="" srcset="" id="carta" />
+      </button>
+      <button type="button" name="3">
+        <img src="img/3.png" alt="" srcset="" id="carta" />
+      </button>
+      <button type="button" name="4">
+        <img src="img/4.png" alt="" srcset="" id="carta" />
+      </button>
+      <button type="button" name="5">
+        <img src="img/5.png" alt="" srcset="" id="carta" />
+      </button>
+      <button type="button" name="6">
+        <img src="img/6.png" alt="" srcset="" id="carta" />
+      </button>
+      <button type="button" name="7">
+        <img src="img/7.png" alt="" srcset="" id="carta" />
+      </button>
+      <button type="button" name="8">
+        <img src="img/8.png" alt="" srcset="" id="carta" />
+      </button>
+      <button type="button" name="9">
+        <img src="img/9.png" alt="" srcset="" id="carta" />
+      </button>
+      <button type="button" name="10">
+        <img src="img/10.png" alt="" srcset="" id="carta" />
+      </button>
+      <button type="button" name="J">
+        <img src="img/11.png" alt="" srcset="" id="carta" />
+      </button>
+      <button type="button" name="Q">
+        <img src="img/12.png" alt="" srcset="" id="carta" />
+      </button>
+      <button type="button" name="K">
+        <img src="img/13.png" alt="" srcset="" id="carta" />
+      </button>
+    </div>
+    <!--este contiene la segunda columna-->
+    <div>
+      <table>
+        <tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+      </table>
+    </div>
+    <div id="panel formulario">
+      <form action="" method="post">
+        <label for="numero">Numero:</label><br />
+        <input type="text" id="numero" name="numero" /><br />
+        <label for="carta">Carta:</label><br />
+        <input type="text" id="carta" name="carta" /><br />
+        <br />
+        <input type="submit" value="Guardar" />
+      </form>
     </div>
 
-    <!--este contiene la segunda columna-->
-    <div></div>
-    <div><form action="" method="post"></form></div>
-
-</body>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
