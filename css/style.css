@@ -14,6 +14,7 @@
     border: 2cap;
   min-height: 50px;
   max-width: 60%;
+  float: left;
 }
 
 div button{
@@ -26,7 +27,7 @@ img{
     height: 175px;
 }
 
-table{
-    display: -ms-inline-flexbox;
+div table{
+    size: 100%;
 }
 
